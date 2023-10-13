@@ -1,0 +1,113 @@
+@charset "UTF-8";   
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(50, 40, 59);
+
+}
+#container_login{
+    width: 350px;
+    height: 400px;
+    background-color: blueviolet;
+    border-radius: 7px;
+    margin: auto;
+    background-image: url(../imagens/fundo2_mod.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+#email{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    padding-top: 130px;
+}
+
+#email > input{
+    height: 30px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.651);
+    transition-duration: 0.3s;
+    
+}
+
+#email > input:focus {
+    transform: translateY(-3px);
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.267);
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+#senha {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+    background-size: 0%;
+}
+
+#senha > input{
+    height: 30px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.651);
+
+}
+
+#senha > input:focus {
+    transform: translateY(-3px);
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.267);
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+
+#botao{
+    text-align: center;
+    padding: 10px;
+    background-size: 0%;
+}
+#botao > button{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bold;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(180, 95, 255);
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#botao > button:hover {
+    transition-duration: 0.3s;
+    background-color: rgb(159, 85, 224);
+	transform: translateY(3px)
+}
+
+#botao > button:active{
+    padding: 12px;
+    background-color: rgb(198, 134, 255);
+}
+
+#ancora{
+    text-align: left;
+    padding-left: 65px;
+}
+
+#ancora > a{
+    font-size: small;
+    color: mediumspringgreen;
+
+}
+/* 
+} */
